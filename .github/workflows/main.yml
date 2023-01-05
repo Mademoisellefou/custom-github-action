@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get Pokemon Name
-        uses: actions/checkout@v1
+        uses: ./
         id: pokemon
         with:
           pokemon_id: 150
