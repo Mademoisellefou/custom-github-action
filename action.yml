@@ -7,7 +7,7 @@ inputs:
     default: 1
 outputs:
   pokemon_name:
-    description: 'Name des Pokemon'
+    description: 'Names of Pokemons'
 runs:
   using: 'docker'
   image: 'Dockerfile'
